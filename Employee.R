@@ -10,7 +10,7 @@ library(pROC) #ROC
 
 
 ##Load Data from CSV
-df<-read.csv('/Users/nonavance/Desktop/SNHU/Capstone in Data Analytics /Final Project/EmployeeAttrition_Data.csv')
+df<-read.csv('..../EmployeeAttrition_Data.csv')
 str(df) #checking data types
 summary(df) #summery statistics
 sum(is.na(df)) #checking for missing data
